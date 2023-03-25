@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    width: 100vh;
+}
+.main-contain {
+    display: flex;
+    flex-direction: column;
+    background-color: #669bbc;
+    justify-content: center;
+    align-items: center;
+}
+
+.etch-main {
+    display: flex;
+    background-color: #780000;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.etch-grid {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.drawable {
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.784);
+}
